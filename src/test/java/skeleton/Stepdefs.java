@@ -33,7 +33,7 @@ public class Stepdefs {
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		driver.get("http://10.232.237.143:443/TestMeApp/login.htm");
 		
-	}
+	} 
 
 	@When("Alex enters correct credentials")
 	public void alex_enters_correct_credentials() {
